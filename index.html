@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="15_11_2021.css"/>
   </head>
   <body 
-  onload="document.body.style.backgroundColor ='pink'"
+  onload="document.body.style.backgroundColor ='pink';welcomeFunction()"
   onresize="document.body.style.backgroundColor ='lightblue'"
   onkeydown="document.body.style.backgroundColor ='white'"
   onkeyup="document.body.style.backgroundColor ='lightyellow'"
@@ -29,7 +29,7 @@
     <li>Homo erectus (upright man)</li>
     <li>Homo neanderthalensis</li>
     <li>Homo floresiensis</li>
-      <ul id="insideUL">
+      <ul id="insideUL" onclick="document.getElementById('insideUL').style.backgroundColor = 'orange'">
         <li>Homo habilis (able man)</li>
       </ul>
   </ul>
@@ -81,4 +81,11 @@
     monkeys.
     </pre>
   </body>
+
+  <script>
+      function welcomeFunction(){
+          alert("Welcome!")
+      }
+  </script>
+
 </html>

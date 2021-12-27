@@ -1,16 +1,28 @@
 h1 {
-  color: red;
-  font-size: 24px;
-  text-decoration: underline;
-  font-family: tahoma,helvetica,sans-serif;
-}
+    color: red;
+    font-size: 24px;
+    font-family: tahoma,helvetica,sans-serif;
+    border: 5px solid red;
+    width: 450px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  em {
+    font-style: normal;
+    color: green;
+    background-color: lightgray;
+    font-weight: bold;
+  }
+  ul{
+    list-style-type: square;
+  }
 
-em {
-  font-style: normal;
-  color: green;
-  background-color: lightgray;
-  font-weight: bold;
-}
-ul{
-  list-style-type: square;
-}
+ li:first-child{
+     border: 5px solid green;
+     padding: 10px;
+ }
+
+ #insideUL li{
+     background-color: orange;
+ }
